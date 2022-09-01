@@ -1,0 +1,28 @@
+#imgCentrado{
+    display:block ;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+
+    margin: 0;
+    padding: 0;
+    background: url(imagenes/fire-102.gif);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+p,h1,h2,h3,h4,ul{
+    color:white
+}
+li{
+    color:black
+}
+#Boton{
+text-decoration: none;
+color:rgb(0, 0, 0);
+display:block ;
+margin-left: auto;
+margin-right: auto;
+border:2px solid #fff;
+}
