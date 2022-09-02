@@ -15,7 +15,7 @@ li{
     color:white;
 }
 .wrapper{
-    width: 98vw;
+    width: 98,5vw;
     height: 9vh;
     background-color: #191c32;
     color: #fff;
@@ -23,7 +23,7 @@ li{
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 2mm;
+    padding: 1mm;
 }
 .brand{
     margin-top: -7px;
@@ -122,4 +122,17 @@ li{
     background-color: #fff;
     box-shadow: none;
     transition: ease-in .2s;
+}
+.tercera{
+    justify-content: space-between;
+    padding: 1mm;
+    align-items: center;
+    display: flex;
+    width: 98,5vw;
+    height: 10vh;
+    background-color: #191c32;
+    color: #fff;
+}
+.navbarr{
+    display: flex;
 }
