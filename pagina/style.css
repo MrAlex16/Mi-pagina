@@ -1,22 +1,16 @@
 
 body{
-
     margin: 0;
     padding: 0;
-    background: url(imagenes/FireKilla.gif);   
+    background: url(/imagenes/truenoPai.gif);   
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
-}
-h1,h2,h3,h4,ul{
-    color:white;
-}
-li{
-    color:white;
+    height: calc(97vh - 50px);
 }
 .wrapper{
     width: 98,5vw;
-    height: 9vh;
+    height: 10vh;
     background-color: #191c32;
     color: #fff;
 }
@@ -64,75 +58,37 @@ li{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
 }
-.botones{
-    padding: 11px 20px;
-    background-color: #fff;
-    border: none;
-    border-radius: 20px;
-    margin-top: 10px;
-    cursor: pointer;
-    box-shadow: 1px 3px 11px -5px rgba(rgb(233, 0, 155), rgb(90, 40, 92), rgb(138, 38, 108), alpha);
-}
-.botones:hover{
-    background-color: blueviolet;
-    box-shadow: none;
-    transition: ease-in .2s;
-}
-.main img{
-    width: 350px;
-    border: 3px solid;
-}
-.about{
-    color: black;
-    background-color: #fff;
-    align-items: center;
-    display: flex;
-    grid-template-columns: repeat(20, 1fr);
-}
-.abour img{
-    width: 100%;
-}
-.about-info p{
-    display: flex;
-    grid-column: 5/10;
-    padding: 1em;
-    font-size: 17px;   
-    margin-bottom: 1em;
-}
-.about-info h2{
+.contenido{
 
-    font-size: 2em;
-}
-.divider{ 
-    height: 4px;
-    width: 70px;
-    background-color: violet;
-    margin-top: 0px;
-    margin-bottom: 3em;
-}.botoness{
-    margin-bottom: 1em;
-    padding: 11px 20px;
-    background-color: blueviolet;
-    border: none;
-    border-radius: 10px;
-    margin-top: 0px;
-    cursor: pointer;
-}
-.botoness:hover{
-    background-color: #fff;
-    box-shadow: none;
-    transition: ease-in .2s;
-}
-.tercera{
-    justify-content: space-between;
-    padding: 1mm;
-    align-items: center;
-    display: flex;
-    width: 98,5vw;
-    height: 10vh;
-    background-color: #191c32;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     color: #fff;
-}
-.navbarr{
+    text-align: center;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.contenido h1{
+    margin: 20px;
+    font-size: 30px;
+}
+.contenido p{
+    margin: 20px;
+    font-size: 20px;
+}
+.contenido .button{
+            text-decoration: none;
+        color:#fff;
+        padding: 9px 20px;
+        text-transform: uppercase;
+        border: 1px solid #fff;
+        transition: all .3s ease-in-out;
+        width: 150px;
+}
+.contenido .button:hover{
+    background-color: #fff;
+    color: #333;
 }
